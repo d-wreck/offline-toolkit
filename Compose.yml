@@ -1,0 +1,22 @@
+services:
+  cyberchef:
+    image: ghcr.io/gchq/cyberchef:latest
+    container_name: cyberchef
+    ports:
+      - "8080:8080"
+    networks:
+      - no_internet
+    restart: always
+  it-tools:
+    image: ghcr.io/corentinth/it-tools:latest
+    container_name: it-tools
+    ports:
+      - "9090:80"
+    networks:
+      - no_internet
+    restart: always
+
+networks:
+  no_internet:
+    name: containers_no_internet
+    internal: true
