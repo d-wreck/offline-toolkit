@@ -1,16 +1,19 @@
 # Offline Toolkit
 Just a collection of useful containers I use day-to-day.
-## Cyberchef
+## [Cyberchef](https://github.com/gchq/CyberChef)
 Swiss army knife I started using during my SecOps days. Favorites:
 - From Base64
 - URL Defang
 - DNS over HTTPS; Still works even though the base container is network isolated. Container serves the static HTML/JSS/CSS files to your browser and then the recipe executes in your browser's JavaScript engine (not in the container).
 - Find / Replace
-## IT-Tools
+## [IT-Tools](https://github.com/CorentinTh/it-tools)
 Bunch of useful tools. Favorites:
 - Outlook Safelink decoder; super useful in Microsoft environments
 - Crontab generator; good for testing cron schedules, wih a handy cheat sheet and examples too.
 - Regex Tester + Cheatsheet
+
+## [Draw.Io](https://www.drawio.com/docs/security/diagrams-docker-app/)
+Great for quick diagrams locally
 
 ## Container Setup
 

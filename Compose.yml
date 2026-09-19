@@ -15,6 +15,14 @@ services:
     networks:
       - no_internet
     restart: always
+  drawio:
+    image: docker.io/jgraph/drawio:latest
+    container_name: drawio
+    ports:
+      - "9091:8080"
+    networks:
+      - no_internet
+    restart: always
 
 networks:
   no_internet:
